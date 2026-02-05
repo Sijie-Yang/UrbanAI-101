@@ -1,0 +1,9 @@
+# Jupyter Book and build
+jupyter-book>=1.0.0,<2
+sphinx>=5,<8
+
+# Notebook dependencies (for execution; optional if execute_notebooks: off)
+numpy
+libpysal
+esda
+geopandas

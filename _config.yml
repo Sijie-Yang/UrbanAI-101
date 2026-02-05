@@ -1,0 +1,26 @@
+# Jupyter Book configuration
+# https://jupyterbook.org/customize/config.html
+
+title: UrbanAI-101
+author: UrbanAI-101
+logo: ""
+
+# Repository for "Edit this page" and launch buttons (Binder, etc.)
+repository:
+  url: https://github.com/Sijie-Yang/UrbanAI-101
+  path_to_book: ""
+  branch: main
+
+# Execute notebooks when building: "off", "auto", "force"
+execute:
+  execute_notebooks: "off"
+
+# HTML
+html:
+  use_edit_page_button: true
+  use_repository_button: true
+
+# Launch buttons (Binder)
+launch_buttons:
+  binderhub_url: "https://mybinder.org"
+  notebook_interface: "jupyterlab"
