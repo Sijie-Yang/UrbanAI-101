@@ -5,3 +5,4 @@ format: jb-book
 root: intro
 chapters:
   - file: 2_spatial-statistics/2-1_spatial-autocorrelation
+  - file: 2_spatial-statistics/2-2_spatial-regression_1
